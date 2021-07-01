@@ -5,11 +5,15 @@
   border-radius: 3em;
   cursor: pointer;
   display: inline-block;
-  line-height: 1;
+}
+.storybook-button p{
+  line-height: 24px;
+  text-transform: uppercase;
+  margin: 0px;
 }
 .storybook-button--primary {
   color: white;
-  background-color: #1ea7fd;
+  background-color: #295EFF;
 }
 .storybook-button--secondary {
   color: #333;
@@ -18,13 +22,13 @@
 }
 .storybook-button--small {
   font-size: 12px;
-  padding: 10px 16px;
+  padding: 8px 16px;
 }
 .storybook-button--medium {
   font-size: 14px;
-  padding: 11px 20px;
+  padding: 16px 24px;
 }
 .storybook-button--large {
-  font-size: 16px;
-  padding: 12px 24px;
+  font-size: 24px;
+  padding: 24px;
 }
